@@ -27,7 +27,7 @@ class WP_Spider_Cache_Object extends WP_Spider_Cache_Object_Base {
 	 *
 	 * @var Memcache
 	 */
-	public $engine_class_name = 'Memcache';
+	public $engine_class_name = 'Memcached';
 
 	/**
 	 * Holds the cache daemon class name.
